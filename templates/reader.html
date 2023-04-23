@@ -61,12 +61,12 @@
 				<div id="container" style="font-family: dyslexic,serif;">
 					<div id="controls" style="font-family: dyslexic,serif;">
 						<div class="btn-group" style="font-family: dyslexic,serif;">
-							<button id="btnPlay"  type="button" class="btn btn-info" >Play</button>
+							<button id="btnPlay"  type="button" class="btn btn-info" >Oynat</button>
 							<button id="btnPlayDropdown" type="button" class="btn btn-info dropdown-toggle"  data-toggle="dropdown">
 								<span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu" role="menu" style="font-family: dyslexic,serif;">
-								<li><a id="menuPlayPause">Play (SPACE)</a></li>
+								<li><a id="menuPlayPause">Oynat (SPACE)</a></li>
 								<li><a id="menuReset">Reset (R)</a></li>
 								<li class="divider"></li>
 								<li><a id="menuStepForward">Step forward (S)</a></li>
@@ -104,7 +104,7 @@
 				<!-- This is the selected text content container -->
 				<div id="container">
 					<div id="spacer"></div>
-                    <div id="heading"><b>Selected text (Complete content)</b></div>
+                    <div id="heading"><b>Metin İçeriği</b></div>
 					<div id="spacer"></div>
                     <div id="contentall_outer"><div id="contentall_inner">
                     	<div id="contentall">
@@ -118,9 +118,9 @@
 				<!-- This is the statistics screen container -->
 				<div id="container">
 					<div id="spacer"></div>
-					<div id="heading"><b>Statistics</b></div>
+					<div id="heading"><b>İstatistikler</b></div>
 					<div id="spacer"></div>
-					<div id="stattotalwords">Total words: </div>
+					<div id="stattotalwords">Toplam Kelime: </div>
 					<div id="stattotalsegments">Total segments (slides): </div>
 					<div id="spacer"></div>
 					<div id="statmaxduration">Maximum slide duration: </div>
@@ -128,15 +128,15 @@
 					<div id="statavgperslide">Average slide duration: </div>
 					<div id="spacer"></div>
 					<div id="statchunksize">Chunk size (words per slide): </div>
-					<div id="statwpm">Words per minute (WPM setting): </div>
+					<div id="statwpm">Dakika başına düşen kelime (WPM setting): </div>
 					<div id="spacer"></div>
-					<div id="stattotalduration">Total duration: </div>
-					<div id="stattotaldurationincpause">Total duration (including pauses): </div>
+					<div id="stattotalduration">Toplam süre: </div>
+					<div id="stattotaldurationincpause">Toplam süre (Duraklamalar dahil): </div>
 					<div id="spacer"></div>
 					<div id="spacer"></div>
 					<div id="spacer"></div>
 					<div class="alert alert-info">
-						<div id="heading"><b>Did you know?</b></div>
+						<div id="heading"><b>Bunu biliyor muydun?</b></div>
 						<div id="spacer"></div>
 						<div id="fact"></div>
 						<div id="disclaimer"></div>
@@ -168,35 +168,35 @@
                                         </div>
                                     </div>
                                     <div class="input-group">
-                                        <label for="fontsize">Font Size (pixels)</label>
+                                        <label for="fontsize">Font Boyutu (pixel)</label>
                                         <input id="fontsize" type="number" class="form-control" placeholder="60">
                                     </div>
                                     <div class="input-group">
-                                        <label for="wpm">Words per minute (<b>WPM</b>)</label>
+                                        <label for="wpm">Dakika Başına Düşen Kelime</label>
                                         <input id="wpm" type="number" class="form-control" placeholder="300">
                                     </div>
                                     <div class="input-group">
-                                        <label for="chunk">Words per slide (<b>Chunk size</b>)</label>
+                                        <label for="chunk">Bir Seferde Ekrana Gelen Kelime Miktarı</label>
                                         <input id="chunk" type="number" class="form-control" placeholder="1">
                                     </div>
                            			<div class="input-group">
-                                        <label for="color">Color Scheme</label>
+                                        <label for="color">Renk Teması</label>
                                         <select id="color" name="colorScheme" class="form-control" form="settings">
-                                            <option value="0">White (Default)</option>
-                                            <option value="1">Black</option>
-                                            <option value="3">Blue</option>
-                                            <option value="11">Charcoal</option>
-                                            <option value="9">Dark Grey</option>
-                                            <option value="10">Dark Purple</option>
-                                            <option value="12">Earthy Greens</option>
+                                            <option value="0">Beyaz (Varsayılan)</option>
+                                            <option value="1">Siyah</option>
+                                            <option value="3">Mavi</option>
+                                            <option value="11">Kömür</option>
+                                            <option value="9">Koyu Gri</option>
+                                            <option value="10">Koyu Mor</option>
+                                            <option value="12">Açık Yeşil</option>
                                             <option value="7">El Designo</option>
-                                            <option value="6">High Contrast</option>
-                                            <option value="2">Grey</option>
-                                            <option value="5">Green</option>
-                                            <option value="8">Neutral Farm</option>
-                                            <option value="14">Olive Branch</option>
-                                            <option value="13">Purdy Pink</option>
-                                            <option value="4">Purple</option>
+                                            <option value="6">Yüksek Kontrast</option>
+                                            <option value="2">Gri</option>
+                                            <option value="5">Yeşil</option>
+                                            <option value="8">Doğal Çiftlik</option>
+                                            <option value="14">Zeytin Dalı</option>
+                                            <option value="13">Pür Pembe</option>
+                                            <option value="4">Mor</option>
                                             <option value="15">Tokyo</option>
                                         </select>
                                     </div>
@@ -206,7 +206,7 @@
 	                            <div id="controls">
                                     <div class="controls">
                                         <div id="spacer"></div>
-                                        <label class="checkbox" for="autostart">Auto start (<b>seconds</b>)</label>
+                                        <label class="checkbox" for="autostart">Otomatik başlama (<b>saniye</b>)</label>
                                         <div class="input-group">
                                             <span class="input-group-addon">
                                                 <input id="autostart" name="autostart" type="checkbox" value="True">
@@ -216,29 +216,29 @@
                                         <div class="input-group">
                                             <label class="checkbox_plain" for="autoclosereader" id="autoclosereaderlabel">
                                             <input type="checkbox" id="autoclosereader">
-                                            Auto close reader window on completion
+                                            Tamamlandığında okuyucu penceresini otomatik kapat.
                                             </label>
                                         </div>
                                         <div id="spacer"></div>
-                                        <label class="control-label"><b>Text orientation</b></label>
+                                        <label class="control-label"><b>Metin yönü</b></label>
                                         <div id="spacer"></div>
                                         <div class="input-group">
                                             <label class="checkbox_plain_tight" for="wordrighttoleft" id="wordrighttoleftlabel">
                                             <input type="checkbox" id="wordrighttoleft">
-                                            Words read from <b>right-to-left (RTL)</b>
+                                            Okuma yönünü <b>Sağdan Sola</b> olarak değiştir.
                                             </label>
                                             <label class="checkbox_plain_tight" for="autotextorientation" id="autotextorientationlabel">
                                             <input type="checkbox" id="autotextorientation">
-                                            Try auto-detecting text orientation</b>
+                                            Metin yönünü otomatik olarak algılamayı deneyin</b>
                                             </label>
                                         </div>
                                         <div id="spacer"></div>
-                                        <label class="control-label"><b>Display</b></label>
+                                        <label class="control-label"><b>Pencere</b></label>
                                         <div id="spacer"></div>
                                         <div class="input-group">
                                         <label class="checkbox_plain" for="showremainingtime" id="showremainingtimelabel">
                                         <input type="checkbox" id="showremainingtime">
-                                        Show Remaining Time
+                                        Kalan Süreyi Göster
                                         </label>
                                     </div>
                                 	</div>
@@ -247,9 +247,9 @@
                         </div>
                         <div id="btnadvancedcontainer">
                             <div id="controls" class="childDiv">
-                                <button id="btnSaveSettings" type="button" class="btn btn-info">Save</button>
-                                <button id="btnRestoreDefaults" type="button" class="btn btn-info">Defaults</button>
-                                <button id="btnResetSize" type="button" class="btn btn-info">Reset Size</button>
+                                <button id="btnSaveSettings" type="button" class="btn btn-info">Kaydet</button>
+                                <button id="btnRestoreDefaults" type="button" class="btn btn-info">Varsayılan</button>
+                                <!-- <button id="btnResetSize" type="button" class="btn btn-info">Reset Size</button> -->
                             </div>
                         </div>
 					</form>
@@ -263,30 +263,30 @@
                     	<div class="input-column-container">
                             <div class="input-column-left">
                                 <div id="controls">
-                                    <label class="control-label"><b>Context sensitive delays</b><br> - Enable and enter millisecond (ms) delay</label>
+                                    <label class="control-label"><b>İçeriğe duyarlı gecikmeler</b><br> - Gecikmeleri milisaniye (ms) olarak girin.</label>
                                     <div class="controls">
-                                        <label class="checkbox" for="pausecomma">Pause after <b>comma</b> (,)</label>
+                                        <label class="checkbox" for="pausecomma"><b>Virgül'den</b> (,) sonraki duraksama.</label>
                                         <div class="input-group">
                                             <span class="input-group-addon">
                                                 <input id="pausecomma" name="pausecomma" type="checkbox">
                                             </span>
                                             <input id="pausecommadelay" type="number" class="form-control" placeholder="150">
                                         </div>
-                                        <label class="checkbox" for="pauseperiod">Pause after <b>period</b> (.)</label>
+                                        <label class="checkbox" for="pauseperiod"><b>Nokta'dan</b> (.) sonraki duraksama.</label>
                                         <div class="input-group">
                                             <span class="input-group-addon">
                                                 <input id="pauseperiod" name="pauseperiod" type="checkbox">
                                             </span>
                                             <input id="pauseperioddelay" type="number" type="text" class="form-control" placeholder="300">
                                         </div>
-                                        <label class="checkbox" for="pauseparagraph">Pause after <b>paragraph</b></label>
+                                        <label class="checkbox" for="pauseparagraph"><b>Paragraf'dan</b> sonraki duraksama.</label>
                                         <div class="input-group">
                                             <span class="input-group-addon">
                                                 <input id="pauseparagraph" name="pauseparagraph" type="checkbox">
                                             </span>
                                             <input id="pauseparagraphdelay" type="number" class="form-control" placeholder="500">
                                         </div>
-                                        <label class="checkbox" for="wordflicker">Word flicker percentage</label>
+                                        <label class="checkbox" for="wordflicker">Kelime titreme yüzdesi</label>
                                         <div class="input-group">
                                             <span class="input-group-addon">
                                                 <input id="wordflicker" name="wordflicker" type="checkbox">
@@ -298,35 +298,35 @@
                             </div>
                             <div class="input-column-right">
 	                            <div id="controls">
-                                	<label class="control-label"><b>Display parameters</b><br> - Powered by Sprint Reader</label>
+                                	<label class="control-label"><b>Okuyucu Parametreleri</b><br> - Powered by Sprint Reader</label>
                                     <div class="controls">
                                         <div id="spacer"></div>
                                         <div class="input-group-wide-width">
-                                            <label for="algorithm">Display algorithm</label>
+                                            <label for="algorithm">Okuyucu algoritması</label>
                                             <select id="algorithm" name="algorithm" class="form-control" form="settings">
-                                                <option value="0">Basic</option>
-                                                <option value="1">Word Length</option>
-                                                <option value="2">Word Frequency (click 'More...' for options)</option>
+                                                <option value="0">Temel</option>
+                                                <option value="1">Kelime Uzunluğu</option>
+                                                <option value="2">Kelime Sıklığı</option>
                                             </select>
                                         </div>
                                         <div id="spacer"></div>
                                         <div class="input-group">
-                                            <label for="textposition">Text position</label>
+                                            <label for="textposition">Kelime Pozisyonu</label>
                                                 <select id="textposition" name="textposition" class="form-control" form="settings">
-                                                    <option value="0">Centered in reader window</option>
-                                                    <option value="1">Left align text in reader window</option>
-                                                    <option value="2">Optimal positioning</option>
-                                                    <option value="3">Optimal positioning + static focal</option>
+                                                    <option value="0">Okuma Pencersinde Ortalanmış</option>
+                                                    <option value="1">Okuma Penceresinde Sola Yapıştırılmış</option>
+                                                    <option value="2">Optimal Ortalama (Varsayılan)</option>
+                                                    <option value="3">Optimal Ortalama + Noktayla Birlikte</option>
                                                 </select>
                                             </label>
                                         </div>
                                         <div class="input-group">
                                             <label class="checkbox_plain_top" for="highlightoptimalletter" id="highlightoptimalletterlabel">
                                             <input type="checkbox" id="highlightoptimalletter">
-                                            Highlight optimal letter (choose below)
+                                            Optimal Harfi Renklendir (choose below)
                                             </label>
                                             <label class="checkbox_plain_note">
-                                            Only applicable for 1 word per slide
+                                                Slayt başına yalnızca 1 kelime için geçerlidir.
                                             </label>
                                         </div>
                                         <div id="color-picker" class="cp-small">
@@ -345,9 +345,9 @@
                         </div>
                         <div id="btnadvancedcontainer">
                             <div id="controls" class="childDiv">
-                                <button id="btnSaveAdvanced" type="button" class="btn btn-info">Save</button>
-                                <button id="btnRestoreAdvancedDefaults" type="button" class="btn btn-info">Defaults</button>
-                                <button id="btnMoreAdvanced" type="button" class="btn btn-info">More...</button>
+                                <button id="btnSaveAdvanced" type="button" class="btn btn-info">Kaydet</button>
+                                <button id="btnRestoreAdvancedDefaults" type="button" class="btn btn-info">Varsayılan</button>
+                                <button id="btnMoreAdvanced" type="button" class="btn btn-info">Fazlası...</button>
                             </div>
                         </div>
 					</form>
@@ -393,12 +393,12 @@
 			</div>
 		</div>
 		<ul class="nav nav-tabs">
-			<li class="active"><a href="#tab1" data-toggle="tab">Home</a></li>
-            <li><a href="#tab2" data-toggle="tab">Content</a></li>
-			<li><a href="#tab3" data-toggle="tab">Statistics</a></li>
-			<li><a href="#tab4" data-toggle="tab">Settings</a></li>
-			<li><a href="#tab5" data-toggle="tab">Advanced</a></li>
-            <li><a href="#tab6" data-toggle="tab">Shortcuts</a></li>
+			<li class="active"><a href="#tab1" data-toggle="tab">Okuyucu</a></li>
+            <li><a href="#tab2" data-toggle="tab">İçerik</a></li>
+			<li><a href="#tab3" data-toggle="tab">İstatistikler</a></li>
+			<li><a href="#tab4" data-toggle="tab">Ayarlar</a></li>
+			<li><a href="#tab5" data-toggle="tab">Gelişmiş Ayarlar</a></li>
+            <li><a href="#tab6" data-toggle="tab">Kısayollar</a></li>
 		</ul>
 	</div>
     </div>
