@@ -18,6 +18,7 @@
  * ========================================================== */
  
  var BFHFontsList = {
+   'dyslexic,serif': '"dyslexic,serif", dyslexic,serif',
    'Andale Mono': '"Andale Mono", AndaleMono, monospace',
    'Arial': 'Arial, "Helvetica Neue", Helvetica, sans-serif',
    'Arial Black': '"Arial Black", "Arial Bold", Gadget, sans-serif',
